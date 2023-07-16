@@ -3,16 +3,19 @@
   margin: 0;
 }
 .navbar {
+  margin-left: 550px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 .bar > ul {
+  /* margin-left: 250px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   list-style: none;
-
-  gap: 50px;
+  gap: 70px;
+}
+.bar {
+  margin-left: 500px;
 }
 
 /* .navbar {
@@ -24,3 +27,17 @@
   gap: 30px;
   list-style: none;
 } */
+/* .banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-description {
+  
+} */
+* .banner-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
