@@ -23,7 +23,7 @@ ul > li {
 }
 .banner-container {
   text-align: center;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 .nav-bar {
   background-color: rgb(255, 244, 230);
@@ -39,5 +39,5 @@ ul > li {
 }
 .banner-img {
   margin-bottom: 45px;
-  width: 100%;
+  width: 80%;
 }
